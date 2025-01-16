@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "REST API CRUD operations",
+    "line": 1,
+    "id": "rest-api-crud-operations",
+    "tags": [],
+    "uri": "RestAPI.feature",
+    "elements": [
+      {
+        "id": "rest-api-crud-operations;create,update,get-and-delete-pet",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "create,update,Get and Delete pet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "create a pet by initiate post request and verify",
+            "result": {
+              "status": "passed",
+              "duration": 1904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "update the  existing pet and verify",
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Get the pet details and verify",
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Delete the pet and verify",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
